@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 640" width="1600" height="640" role="img" aria-labelledby="t d">
+  <title id="t">Herramientas del kit</title>
+  <desc id="d">Superpowers, Ponytail, Caveman, Context7, RTK, Graphify, fnm y utilidades de terminal.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#08080e"/><stop offset="1" stop-color="#120c16"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".075"/><stop offset="1" stop-color="#ffffff" stop-opacity=".02"/>
+    </linearGradient>
+    <style>
+      text{font-family:ui-sans-serif,-apple-system,"SF Pro Display","Segoe UI",Inter,Helvetica,Arial,sans-serif}
+      .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
+      .n{font-size:24px;font-weight:700;fill:#fafafa}
+      .d{font-size:15px;fill:#a1a1aa}
+      .k{font-size:12px;letter-spacing:2px;font-weight:600}
+      .c{}
+      @media (prefers-reduced-motion:reduce){.c{animation:none;opacity:1}}
+    </style>
+  </defs>
+  <rect width="1600" height="640" rx="28" fill="url(#bg)"/>
+  <rect x=".5" y=".5" width="1599" height="639" rx="28" fill="none" stroke="#fff" stroke-opacity=".08"/>
+
+  <text x="80" y="78" fill="#71717a" font-size="15" letter-spacing="3" class="mono">LA CAJA DE HERRAMIENTAS</text>
+  <text x="80" y="118" fill="#fafafa" font-size="34" font-weight="700" letter-spacing="-.5">Ocho piezas, un solo flujo</text>
+
+  <!-- row 1 -->
+  <g class="c" transform="translate(80 160)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#a78bfa" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">✦</text>
+    <text x="28" y="108" class="k" fill="#a78bfa">MÉTODO</text>
+    <text x="28" y="140" class="n">Superpowers</text>
+    <text x="28" y="170" class="d">Piensa, planifica y verifica</text>
+  </g>
+  <g class="c" transform="translate(445 160)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#c084fc" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">◆</text>
+    <text x="28" y="108" class="k" fill="#c084fc">ALCANCE</text>
+    <text x="28" y="140" class="n">Ponytail</text>
+    <text x="28" y="170" class="d">El cambio mínimo y completo</text>
+  </g>
+  <g class="c" transform="translate(810 160)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#e879f9" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">◐</text>
+    <text x="28" y="108" class="k" fill="#e879f9">CONVERSACIÓN</text>
+    <text x="28" y="140" class="n">Caveman</text>
+    <text x="28" y="170" class="d">Respuestas cortas, menos tokens</text>
+  </g>
+  <g class="c" transform="translate(1175 160)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#f472b6" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">◎</text>
+    <text x="28" y="108" class="k" fill="#f472b6">DOCUMENTACIÓN</text>
+    <text x="28" y="140" class="n">Context7</text>
+    <text x="28" y="170" class="d">APIs actuales, sin inventar</text>
+  </g>
+
+  <!-- row 2 -->
+  <g class="c" transform="translate(80 380)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#fb7185" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">⚡</text>
+    <text x="28" y="108" class="k" fill="#fb7185">TERMINAL</text>
+    <text x="28" y="140" class="n">RTK</text>
+    <text x="28" y="170" class="d">Filtra la salida de comandos</text>
+  </g>
+  <g class="c" transform="translate(445 380)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#fb923c" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">⬡</text>
+    <text x="28" y="108" class="k" fill="#fb923c">CONTEXTO</text>
+    <text x="28" y="140" class="n">Graphify</text>
+    <text x="28" y="170" class="d">Mapa del código consultable</text>
+  </g>
+  <g class="c" transform="translate(810 380)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#fbbf24" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">⬢</text>
+    <text x="28" y="108" class="k" fill="#fbbf24">RUNTIME</text>
+    <text x="28" y="140" class="n">fnm + Node LTS</text>
+    <text x="28" y="170" class="d">Versión correcta por proyecto</text>
+  </g>
+  <g class="c" transform="translate(1175 380)">
+    <rect width="345" height="200" rx="20" fill="url(#card)" stroke="#fff" stroke-opacity=".09"/>
+    <rect x="28" y="28" width="44" height="44" rx="12" fill="#facc15" fill-opacity=".16"/><text x="50" y="58" text-anchor="middle" font-size="22" fill="#f4f4f5">⌘</text>
+    <text x="28" y="108" class="k" fill="#facc15">UTILIDADES</text>
+    <text x="28" y="140" class="n">rg · fd · jq · gh</text>
+    <text x="28" y="170" class="d">Buscar, leer y publicar rápido</text>
+  </g>
+</svg>
