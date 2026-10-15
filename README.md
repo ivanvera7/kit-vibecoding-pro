@@ -3,6 +3,10 @@
 </p>
 
 <p align="center">
+  <b>Español</b> &nbsp;·&nbsp; <a href="README.en.md">English</a>
+</p>
+
+<p align="center">
   <a href="#-empieza-aquí"><b>Empieza aquí</b></a> &nbsp;·&nbsp;
   <a href="#-cómo-funciona"><b>Cómo funciona</b></a> &nbsp;·&nbsp;
   <a href="#-herramientas"><b>Herramientas</b></a> &nbsp;·&nbsp;
@@ -140,6 +144,13 @@ Conocer → decidir contigo → configurar → mejorar en pasos pequeños → co
 → [`prompts/03-proyecto-existente.md`](prompts/03-proyecto-existente.md)
 </details>
 
+O úsalos directamente desde la URL:
+
+```text
+Lee https://raw.githubusercontent.com/ivanvera7/kit-vibecoding-pro/main/prompts/02-proyecto-nuevo.md y ejecútalo en este directorio.
+Proyecto: [tu idea]
+```
+
 <br />
 
 ## ◇ Principios
@@ -163,7 +174,8 @@ kit-vibecoding-pro/
 ├── prompts/
 │   ├── 01-preparar-maquina.md    capa global
 │   ├── 02-proyecto-nuevo.md      idea → proyecto
-│   └── 03-proyecto-existente.md  proyecto → proyecto con el kit
+│   ├── 03-proyecto-existente.md  proyecto → proyecto con el kit
+│   └── en/                       los mismos prompts en inglés
 ├── docs/
 │   └── herramientas.md           ficha de cada herramienta
 └── assets/                       gráficos del README
