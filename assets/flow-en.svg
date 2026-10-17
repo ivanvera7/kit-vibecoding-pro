@@ -1,76 +1,85 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 420" width="1600" height="420" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 440" width="1600" height="440" role="img" aria-labelledby="t d">
   <title id="t">How it works</title>
   <desc id="d">Six steps: understand, design, plan, implement, verify and review.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#08080e"/><stop offset="1" stop-color="#110c1a"/>
-    </linearGradient>
-    <linearGradient id="line" gradientUnits="userSpaceOnUse" x1="190" y1="0" x2="1410" y2="0">
-      <stop offset="0" stop-color="#a78bfa"/><stop offset=".5" stop-color="#f472b6"/><stop offset="1" stop-color="#fbbf24"/>
-    </linearGradient>
-    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#ffffff" stop-opacity=".08"/><stop offset="1" stop-color="#ffffff" stop-opacity=".02"/>
-    </linearGradient>
-    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
-      <stop offset="0" stop-color="#a855f7" stop-opacity=".3"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    <radialGradient id="spot" cx=".72" cy=".44" r=".55">
+      <stop offset="0" stop-color="#969fb9" stop-opacity=".09"/><stop offset="1" stop-color="#969fb9" stop-opacity="0"/>
     </radialGradient>
+    <linearGradient id="eb" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffb3d9"/><stop offset="1" stop-color="#ff4fa3"/>
+    </linearGradient>
     <style>
-      text{font-family:ui-sans-serif,-apple-system,"SF Pro Display","Segoe UI",Inter,Helvetica,Arial,sans-serif}
+      text{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display","Inter Tight",Inter,"Segoe UI","Helvetica Neue",Arial,sans-serif;letter-spacing:-.012em}
       .mono{font-family:ui-monospace,"SF Mono",Menlo,Consolas,monospace}
-      .dash{stroke-dasharray:6 10;animation:flow 1.6s linear infinite}
-      @keyframes flow{to{stroke-dashoffset:-32}}
-      .pulse{animation:pulse 6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
-      .s2{animation-delay:1s}.s3{animation-delay:2s}.s4{animation-delay:3s}.s5{animation-delay:4s}.s6{animation-delay:5s}
-      @keyframes pulse{0%,14%{opacity:.45;transform:scale(1.3)}24%,100%{opacity:.18;transform:scale(1)}}
-      @media (prefers-reduced-motion:reduce){.dash,.pulse{animation:none}.pulse{opacity:.6}}
+      .live{opacity:0;animation:lv 9s infinite}
+      @keyframes lv{0%,1%{opacity:0}4%,15%{opacity:1}19%,100%{opacity:0}}
+      .d0{animation-delay:0.0s}
+      .d1{animation-delay:1.5s}
+      .d2{animation-delay:3.0s}
+      .d3{animation-delay:4.5s}
+      .d4{animation-delay:6.0s}
+      .d5{animation-delay:7.5s}
+      @media (prefers-reduced-motion:reduce){*{animation:none!important}}
     </style>
   </defs>
-  <rect width="1600" height="420" rx="28" fill="url(#bg)"/>
-  <ellipse cx="800" cy="230" rx="700" ry="160" fill="url(#glow)"/>
-  <rect x=".5" y=".5" width="1599" height="419" rx="28" fill="none" stroke="#fff" stroke-opacity=".08"/>
+  <rect width="1600" height="440" rx="28" fill="#000"/>
+  <rect width="1600" height="440" rx="28" fill="url(#spot)"/>
+  <rect x=".5" y=".5" width="1599" height="439" rx="28" fill="none" stroke="#fff" stroke-opacity="0.1"/>
 
-  <text x="80" y="78" fill="#71717a" font-size="15" letter-spacing="3" class="mono">THE METHOD</text>
-  <text x="80" y="118" fill="#fafafa" font-size="34" font-weight="700" letter-spacing="-.5">From idea to verified code</text>
-
-  <path d="M190 250H1410" stroke="url(#line)" stroke-width="2" stroke-opacity=".35"/>
-  <path class="dash" d="M190 250H1410" stroke="url(#line)" stroke-width="2"/>
-
-  <g font-size="21" font-weight="600" fill="#fafafa" text-anchor="middle">
-    <g transform="translate(190 250)">
-      <circle class="pulse" r="30" fill="#a78bfa" opacity=".25"/>
-      <circle r="9" fill="#a78bfa"/>
-      <text y="-48" class="mono" font-size="14" fill="#a78bfa" font-weight="500">01</text>
-      <text y="68">Understand</text><text y="94" font-size="14" font-weight="400" fill="#a1a1aa">what and for whom</text>
-    </g>
-    <g transform="translate(434 250)">
-      <circle class="pulse s2" r="30" fill="#c084fc" opacity=".25"/>
-      <circle r="9" fill="#c084fc"/>
-      <text y="-48" class="mono" font-size="14" fill="#c084fc" font-weight="500">02</text>
-      <text y="68">Design</text><text y="94" font-size="14" font-weight="400" fill="#a1a1aa">options and decision</text>
-    </g>
-    <g transform="translate(678 250)">
-      <circle class="pulse s3" r="30" fill="#e879f9" opacity=".25"/>
-      <circle r="9" fill="#e879f9"/>
-      <text y="-48" class="mono" font-size="14" fill="#e879f9" font-weight="500">03</text>
-      <text y="68">Plan</text><text y="94" font-size="14" font-weight="400" fill="#a1a1aa">verifiable steps</text>
-    </g>
-    <g transform="translate(922 250)">
-      <circle class="pulse s4" r="30" fill="#f472b6" opacity=".25"/>
-      <circle r="9" fill="#f472b6"/>
-      <text y="-48" class="mono" font-size="14" fill="#f472b6" font-weight="500">04</text>
-      <text y="68">Implement</text><text y="94" font-size="14" font-weight="400" fill="#a1a1aa">the minimal change</text>
-    </g>
-    <g transform="translate(1166 250)">
-      <circle class="pulse s5" r="30" fill="#fb923c" opacity=".25"/>
-      <circle r="9" fill="#fb923c"/>
-      <text y="-48" class="mono" font-size="14" fill="#fb923c" font-weight="500">05</text>
-      <text y="68">Verify</text><text y="94" font-size="14" font-weight="400" fill="#a1a1aa">tests and evidence</text>
-    </g>
-    <g transform="translate(1410 250)">
-      <circle class="pulse s6" r="30" fill="#fbbf24" opacity=".25"/>
-      <circle r="9" fill="#fbbf24"/>
-      <text y="-48" class="mono" font-size="14" fill="#fbbf24" font-weight="500">06</text>
-      <text y="68">Review</text><text y="94" font-size="14" font-weight="400" fill="#a1a1aa">before merging</text>
-    </g>
+  <text x="96" y="92" font-size="22" font-weight="600" fill="url(#eb)">The method</text>
+  <text x="94" y="146" font-size="48" font-weight="700" letter-spacing="-.035em" fill="#f5f5f7">From idea to verified code.</text>
+  <g transform="translate(96.0 196)">
+    <rect width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".05"/>
+    <rect class="live d0" width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff4fa3" stroke-opacity=".35"/>
+    <text x="22" y="44" font-size="17" font-weight="600" fill="#6e6e73">01</text>
+    <text class="live d0" x="22" y="44" font-size="17" font-weight="600" fill="#ff4fa3">01</text>
+    <text x="22" y="88" font-size="25" font-weight="600" letter-spacing="-.02em" fill="#f5f5f7">Understand</text>
+    <text x="22" y="118" font-size="16" fill="#a1a1a6">What and for whom</text>
+    <text x="22" y="152" font-size="14" fill="#6e6e73">Superpowers</text>
+  </g>
+  <g transform="translate(332.3 196)">
+    <rect width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".05"/>
+    <rect class="live d1" width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff4fa3" stroke-opacity=".35"/>
+    <text x="22" y="44" font-size="17" font-weight="600" fill="#6e6e73">02</text>
+    <text class="live d1" x="22" y="44" font-size="17" font-weight="600" fill="#ff4fa3">02</text>
+    <text x="22" y="88" font-size="25" font-weight="600" letter-spacing="-.02em" fill="#f5f5f7">Design</text>
+    <text x="22" y="118" font-size="16" fill="#a1a1a6">Options and a decision</text>
+    <text x="22" y="152" font-size="14" fill="#6e6e73">Superpowers</text>
+  </g>
+  <g transform="translate(568.7 196)">
+    <rect width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".05"/>
+    <rect class="live d2" width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff4fa3" stroke-opacity=".35"/>
+    <text x="22" y="44" font-size="17" font-weight="600" fill="#6e6e73">03</text>
+    <text class="live d2" x="22" y="44" font-size="17" font-weight="600" fill="#ff4fa3">03</text>
+    <text x="22" y="88" font-size="25" font-weight="600" letter-spacing="-.02em" fill="#f5f5f7">Plan</text>
+    <text x="22" y="118" font-size="16" fill="#a1a1a6">Verifiable steps</text>
+    <text x="22" y="152" font-size="14" fill="#6e6e73">Superpowers</text>
+  </g>
+  <g transform="translate(805.0 196)">
+    <rect width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".05"/>
+    <rect class="live d3" width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff4fa3" stroke-opacity=".35"/>
+    <text x="22" y="44" font-size="17" font-weight="600" fill="#6e6e73">04</text>
+    <text class="live d3" x="22" y="44" font-size="17" font-weight="600" fill="#ff4fa3">04</text>
+    <text x="22" y="88" font-size="25" font-weight="600" letter-spacing="-.02em" fill="#f5f5f7">Implement</text>
+    <text x="22" y="118" font-size="16" fill="#a1a1a6">The minimal change</text>
+    <text x="22" y="152" font-size="14" fill="#6e6e73">Ponytail, Context7</text>
+  </g>
+  <g transform="translate(1041.3 196)">
+    <rect width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".05"/>
+    <rect class="live d4" width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff4fa3" stroke-opacity=".35"/>
+    <text x="22" y="44" font-size="17" font-weight="600" fill="#6e6e73">05</text>
+    <text class="live d4" x="22" y="44" font-size="17" font-weight="600" fill="#ff4fa3">05</text>
+    <text x="22" y="88" font-size="25" font-weight="600" letter-spacing="-.02em" fill="#f5f5f7">Verify</text>
+    <text x="22" y="118" font-size="16" fill="#a1a1a6">Tests and evidence</text>
+    <text x="22" y="152" font-size="14" fill="#6e6e73">pnpm check</text>
+  </g>
+  <g transform="translate(1277.7 196)">
+    <rect width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".05"/>
+    <rect class="live d5" width="226.3" height="176" rx="20" fill="#fff" fill-opacity=".08" stroke="#ff4fa3" stroke-opacity=".35"/>
+    <text x="22" y="44" font-size="17" font-weight="600" fill="#6e6e73">06</text>
+    <text class="live d5" x="22" y="44" font-size="17" font-weight="600" fill="#ff4fa3">06</text>
+    <text x="22" y="88" font-size="25" font-weight="600" letter-spacing="-.02em" fill="#f5f5f7">Review</text>
+    <text x="22" y="118" font-size="16" fill="#a1a1a6">Before merging</text>
+    <text x="22" y="152" font-size="14" fill="#6e6e73">Superpowers</text>
   </g>
 </svg>

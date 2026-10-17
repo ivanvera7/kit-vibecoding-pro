@@ -14,11 +14,11 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-listo-a78bfa?style=flat-square&labelColor=0b0b12" alt="Claude Code listo" />
-  <img src="https://img.shields.io/badge/Node-LTS-f472b6?style=flat-square&labelColor=0b0b12" alt="Node LTS" />
-  <img src="https://img.shields.io/badge/idioma-español-fbbf24?style=flat-square&labelColor=0b0b12" alt="Idioma español" />
-  <img src="https://img.shields.io/badge/licencia-MIT-34d399?style=flat-square&labelColor=0b0b12" alt="Licencia MIT" />
-  <a href="https://github.com/ivanvera7/kit-vibecoding-pro/stargazers"><img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=flat-square&logo=github&label=estrellas&color=fbbf24&labelColor=0b0b12" alt="Estrellas en GitHub" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-listo-ff4fa3?style=flat-square&labelColor=000000" alt="Claude Code listo" />
+  <img src="https://img.shields.io/badge/Node-LTS-a1a1a6?style=flat-square&labelColor=000000" alt="Node LTS" />
+  <img src="https://img.shields.io/badge/idioma-español-a1a1a6?style=flat-square&labelColor=000000" alt="Idioma español" />
+  <img src="https://img.shields.io/badge/licencia-MIT-a1a1a6?style=flat-square&labelColor=000000" alt="Licencia MIT" />
+  <a href="https://github.com/ivanvera7/kit-vibecoding-pro/stargazers"><img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=flat-square&logo=github&label=estrellas&color=ff4fa3&labelColor=000000" alt="Estrellas en GitHub" /></a>
 </p>
 
 <p align="center"><sub>⭐ Si el kit te resulta útil, dale una estrella arriba a la derecha.</sub></p>
@@ -187,7 +187,7 @@ kit-vibecoding-pro/
 
 <p align="center">
   <a href="https://github.com/ivanvera7/kit-vibecoding-pro">
-    <img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=for-the-badge&logo=github&label=Dale%20una%20estrella&color=fbbf24&labelColor=0b0b12" alt="Dale una estrella en GitHub" />
+    <img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=for-the-badge&logo=github&label=Dale%20una%20estrella&color=ff4fa3&labelColor=000000" alt="Dale una estrella en GitHub" />
   </a>
 </p>
 

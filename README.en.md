@@ -14,10 +14,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-ready-a78bfa?style=flat-square&labelColor=0b0b12" alt="Claude Code ready" />
-  <img src="https://img.shields.io/badge/Node-LTS-f472b6?style=flat-square&labelColor=0b0b12" alt="Node LTS" />
-  <img src="https://img.shields.io/badge/license-MIT-34d399?style=flat-square&labelColor=0b0b12" alt="MIT license" />
-  <a href="https://github.com/ivanvera7/kit-vibecoding-pro/stargazers"><img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=flat-square&logo=github&label=stars&color=fbbf24&labelColor=0b0b12" alt="GitHub stars" /></a>
+  <img src="https://img.shields.io/badge/Claude_Code-ready-ff4fa3?style=flat-square&labelColor=000000" alt="Claude Code ready" />
+  <img src="https://img.shields.io/badge/Node-LTS-a1a1a6?style=flat-square&labelColor=000000" alt="Node LTS" />
+  <img src="https://img.shields.io/badge/license-MIT-a1a1a6?style=flat-square&labelColor=000000" alt="MIT license" />
+  <a href="https://github.com/ivanvera7/kit-vibecoding-pro/stargazers"><img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=flat-square&logo=github&label=stars&color=ff4fa3&labelColor=000000" alt="GitHub stars" /></a>
 </p>
 
 <p align="center"><sub>⭐ If the kit is useful to you, star it at the top right.</sub></p>
@@ -190,7 +190,7 @@ Project: [your idea]
 
 <p align="center">
   <a href="https://github.com/ivanvera7/kit-vibecoding-pro">
-    <img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=for-the-badge&logo=github&label=Star%20it&color=fbbf24&labelColor=0b0b12" alt="Star it on GitHub" />
+    <img src="https://img.shields.io/github/stars/ivanvera7/kit-vibecoding-pro?style=for-the-badge&logo=github&label=Star%20it&color=ff4fa3&labelColor=000000" alt="Star it on GitHub" />
   </a>
 </p>
 
