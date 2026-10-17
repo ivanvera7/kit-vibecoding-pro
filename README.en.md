@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero-en.svg" alt="Kit VibeCoding Pro — the tools, the prompts and the method for coding with AI agents." width="100%" />
+  <img src="assets/hero-en.svg?v=2" alt="Kit VibeCoding Pro — the tools, the prompts and the method for coding with AI agents." width="100%" />
 </p>
 
 <p align="center">
@@ -51,7 +51,7 @@
 ## ◇ How it works
 
 <p align="center">
-  <img src="assets/flow-en.svg" alt="The six-step method: understand, design, plan, implement, verify and review." width="100%" />
+  <img src="assets/flow-en.svg?v=2" alt="The six-step method: understand, design, plan, implement, verify and review." width="100%" />
 </p>
 
 There are **two layers**, and each is set up only once.
@@ -94,7 +94,7 @@ After that, every new Claude session reads `CLAUDE.md` and picks up the context.
 ## ◇ Tools
 
 <p align="center">
-  <img src="assets/tools-en.svg" alt="The eight tools in the kit." width="100%" />
+  <img src="assets/tools-en.svg?v=2" alt="The eight tools in the kit." width="100%" />
 </p>
 
 | Tool | What it does | Source |

@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" alt="Kit VibeCoding Pro — las herramientas, los prompts y el método para programar con agentes de IA." width="100%" />
+  <img src="assets/hero.svg?v=2" alt="Kit VibeCoding Pro — las herramientas, los prompts y el método para programar con agentes de IA." width="100%" />
 </p>
 
 <p align="center">
@@ -52,7 +52,7 @@
 ## ◇ Cómo funciona
 
 <p align="center">
-  <img src="assets/flow.svg" alt="El método en seis pasos: entender, diseñar, planificar, implementar, verificar y revisar." width="100%" />
+  <img src="assets/flow.svg?v=2" alt="El método en seis pasos: entender, diseñar, planificar, implementar, verificar y revisar." width="100%" />
 </p>
 
 Hay **dos capas**, y cada una se configura una sola vez.
@@ -95,7 +95,7 @@ Después, cada sesión nueva de Claude lee `CLAUDE.md` y retoma el contexto. **S
 ## ◇ Herramientas
 
 <p align="center">
-  <img src="assets/tools.svg" alt="Las ocho herramientas del kit." width="100%" />
+  <img src="assets/tools.svg?v=2" alt="Las ocho herramientas del kit." width="100%" />
 </p>
 
 | Herramienta | Para qué sirve | Origen |
